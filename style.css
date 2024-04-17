@@ -1,0 +1,13 @@
+body{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-box{
+background-color: chocolate;
+color: white;
+}
+
+.title-box p{
+    color: black;
+}
