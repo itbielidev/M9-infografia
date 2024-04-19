@@ -1,13 +1,38 @@
 body{
-    background-color: bisque;
+    background-color: #F4EEE7;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1{
+    font-size: 4rem;
+}
+
 .title-box{
-background-color: chocolate;
+background-color: #B77D3D;
 color: white;
+border-top: 0.5rem solid #5C6448;
 }
 
 .title-box p{
-    color: black;
+    color: #5c4834;
+}
+
+.green-bar{
+    background-color: #5C6448;
+}
+
+.art-number{
+    font-size: 1.5rem;
+    color: white;
+    background-color: #B77D3D;
+    height: 4rem;
+    width: 4rem;
+    margin-bottom: 13rem;
+}
+
+.article{
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    height:15rem;
 }
