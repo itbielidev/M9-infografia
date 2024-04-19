@@ -34,5 +34,13 @@ border-top: 0.5rem solid #5C6448;
     background-color: white;
     padding: 2rem;
     margin-bottom: 2rem;
-    height:15rem;
+}
+
+.principle-title{
+    font-size: 2rem;
+    color: #B77D3D;
+}
+
+.principle-definition{
+    color:#5C6448;
 }
