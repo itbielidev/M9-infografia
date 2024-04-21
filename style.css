@@ -19,16 +19,21 @@ border-top: 0.5rem solid #5C6448;
 
 .green-bar{
     background-color: #5C6448;
+    display: flex;
+    justify-content: space-around;
 }
 
 .art-number{
-    font-size: 1.5rem;
     color: white;
     background-color: #B77D3D;
-    height: 4rem;
-    width: 4rem;
-    margin-bottom: 13rem;
+    height: 8rem;
+    width: 8rem;
+    display: flex;
 }
+
+.art-number h2{
+    font-size: 4rem;
+}   
 
 .article{
     background-color: white;
@@ -43,4 +48,59 @@ border-top: 0.5rem solid #5C6448;
 
 .principle-definition{
     color:#5C6448;
+    line-height: 2.4rem;
+}
+
+.point img{
+    height: 2rem;
+}
+
+
+.point img.real-example{
+    height: 4.5rem;
+}
+
+.principles-icons{
+    background-color: white;
+    border-top: 4px solid #5C6448;
+    margin: 0 1rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.principles-icons section{
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.principles-icons article img.icon{
+    height: 5cap;
+    width: 5rem;
+}
+
+
+.principles-icons h2{
+    text-align: center;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 998px) {
+    .principles-icons section{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+     main section article {
+        display: flex;
+        flex-direction: column;
+     }
+     
+}
+
+@media (max-width: 607px){
+    .principles-icons article img.icon{
+        height: 4rem;
+        width: 4rem;
+    }
 }
