@@ -7,6 +7,12 @@ h1{
     font-size: 4rem;
 }
 
+:root {
+    .row {
+        --bs-gutter-x: 0 !important;
+    }
+}
+
 .title-box{
 background-color: #B77D3D;
 color: white;
@@ -57,13 +63,13 @@ border-top: 0.5rem solid #5C6448;
 
 
 .point img.real-example{
-    height: 4.5rem;
+    height: auto;
 }
 
 .principles-icons{
     background-color: white;
     border-top: 4px solid #5C6448;
-    margin: 0 1rem;
+    /* margin: 0 1rem; */
     padding-bottom: 2rem;
     margin-bottom: 2rem;
 }
