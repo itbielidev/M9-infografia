@@ -1,112 +1,81 @@
-body{
-    background-color: #F4EEE7;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    font-family: "Kanit", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-    font-size: 4rem;
-}
-
-:root {
-    .row {
-        --bs-gutter-x: 0 !important;
-    }
-}
-
-.title-box{
-background-color: #B77D3D;
-color: white;
-border-top: 0.5rem solid #5C6448;
-}
-
-.title-box p{
-    color: #5c4834;
-}
-
-.green-bar{
-    background-color: #5C6448;
-    display: flex;
-    justify-content: space-around;
-}
-
-.art-number{
+header {
+    background-color: #fd79a8;
     color: white;
-    background-color: #B77D3D;
-    height: 8rem;
-    width: 8rem;
-    display: flex;
-}
-
-.art-number h2{
-    font-size: 4rem;
-}   
-
-.article{
-    background-color: white;
-    padding: 2rem;
-    margin-bottom: 2rem;
-}
-
-.principle-title{
-    font-size: 2rem;
-    color: #B77D3D;
-}
-
-.principle-definition{
-    color:#5C6448;
-    line-height: 2.4rem;
-}
-
-.point img{
-    height: 2rem;
-}
-
-
-.point img.real-example{
-    height: auto;
-}
-
-.principles-icons{
-    background-color: white;
-    border-top: 4px solid #5C6448;
-    /* margin: 0 1rem; */
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
-}
-
-.principles-icons section{
-    display: flex;
-    justify-content: space-evenly;
-  
-}
-
-.principles-icons article img.icon{
-    height: 5cap;
-    width: 5rem;
-}
-
-
-.principles-icons h2{
     text-align: center;
+    padding: 20px;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media (max-width: 998px) {
-    .principles-icons section{
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-     main section article {
-        display: flex;
-        flex-direction: column;
-     }
-     
+h1 {
+    margin-top: 0;
 }
 
-@media (max-width: 607px){
-    .principles-icons article img.icon{
-        height: 4rem;
-        width: 4rem;
-    }
+.infografia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.principio {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #fd79a8;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.principio h2 {
+    font-size: 1.6rem;
+    color: #fd79a8;
+}
+
+.principio p {
+   font-size: 1.3rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.btn-custom{
+    background-color: #fd79a8 !important;
+    color: white! important;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.3rem !important;
+}
+
+footer {
+    display: flex;
+    background-color: #f8c7d9;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+  
 }
